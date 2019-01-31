@@ -1,7 +1,7 @@
 
-# PiWars Turkey 2019: Python library for the distributed robot kits by HisarCS
+# PiWars2019: Python library by HisarCS for the 2019 PiWars competition
 
-This python library was created for the purposes of easing the understanding between software, sensors, and movables on the robot kits designed by HisarCS for attendees of Pi Wars Turkey 2019.
+This python library was made to simplify the software for the robot competing in PiWars 2019.
 
 
 ## Installation
