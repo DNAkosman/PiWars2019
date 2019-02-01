@@ -23,7 +23,7 @@ import HisarCSPiWars2019
 
 The library includes 5 classes as of now these are:
 - OptimizedPiCam (for a simplified and optimized way to use the Pi Camera and OpenCV)
-- Kumanda (for an easy way to use the pygame Joystick class with the sixaxis PS3 controller)
+- Controller (for an easy way to use the pygame Joystick class with the sixaxis PS3 controller)
 - MotorControl (for an easy way to use the Pololu DRV8835 motor control circuit for the Raspberry Pi with a controller)
 - ServoControl (for a simple way to use servo motors on the Raspberry Pi using GPIO pins)
 - UltrasonicSensor (for an easy way to use HC-SR04 ultrasonic distance sensors on the Raspberry Pi)
@@ -100,7 +100,7 @@ while True:
 	gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 	camera.suAnkiKare = gray
 ```
-Kumanda
+Controller
 -
 - Methods
 ```python
